@@ -17,3 +17,13 @@
 ![alt text](asset/image-4.png)
 ![alt text](asset/image-5.png)
 ![alt text](asset/image-6.png)
+
+## task2: get balance of my address
+
+### my address and balance
+
+![alt text](asset/2image-1.png)
+
+### get balance and convert wei to eth
+
+![alt text](asset/2-image.png)

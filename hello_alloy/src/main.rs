@@ -12,9 +12,8 @@ sol! {
 
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn Error>> {
-
+    // connect to Arbitrum Sepolia testnet
     let rpc_url = "https://arbitrum-sepolia-rpc.publicnode.com".parse()?;
- 
     let provider = ProviderBuilder::new().connect_http(rpc_url); 
     
     // get latest block number
@@ -24,12 +23,9 @@ async fn main() -> Result<(), Box<dyn Error>> {
 
     // task 1: print "Hello web3" to the console
     println!("Hello web3");
-   
-
+    
     let contract_address: Address = "0x2ab59788a255155CE1160C2549463de13D9Fa2b6".parse()?;
-    
     let contract = HelloWeb3::new(contract_address, provider);
-    
     let message = contract.hello_web3().call().await?;
 
     println!("Contract message: {}", message);
