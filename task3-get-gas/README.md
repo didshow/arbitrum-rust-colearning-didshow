@@ -9,4 +9,3 @@
 ### run result
 
 ![alt text](../asset/3image.png)
-![alt text](image.png)
