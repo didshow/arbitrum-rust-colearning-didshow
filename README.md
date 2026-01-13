@@ -1,5 +1,10 @@
 # arbitrum-rust-colearning-didshow
 
+## How to run
+
+`cargo build`
+`cargo run`
+
 ## task1: hello web3
 
 ### 1、连接 metamask、切换 Arbitrum 配置、领取测试币
@@ -27,3 +32,13 @@
 ### get balance and convert wei to eth
 
 ![alt text](asset/2-image.png)
+
+## task3: get gas fee immidiately
+
+### formular
+
+`gas fee = gas price * gas limit`
+
+### run result
+
+![alt text](asset/3image.png)
