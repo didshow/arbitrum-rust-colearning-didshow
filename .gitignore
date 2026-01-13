@@ -1,0 +1,17 @@
+# --- 环境变量与密钥安全 ---
+.env
+.env.*
+!.env.example  # 允许提交示例文件（不含真实密钥）
+
+# --- Rust 编译产物 ---
+/target/
+
+# --- IDE 与系统文件 ---
+.vscode/
+.idea/
+.DS_Store
+
+# --- 锁定文件 (可选) ---
+# 对于二进制可执行项目，建议提交 Cargo.lock 以确保构建一致性
+# 如果是库(Library)项目，可以考虑忽略
+# Cargo.lock
