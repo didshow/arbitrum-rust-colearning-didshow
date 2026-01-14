@@ -62,3 +62,7 @@ TO_ADDRESS=
 ### Transaction Browser Screenshot
 
 ![alt text](asset/4image-1.png)
+
+## task 5: interact wirh contact(sol)
+
+### get abi
